@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(86, 206, 102);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  max-width: 450px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  background-color: aliceblue;
+  margin: 5rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.list {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-image {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-details {
+  margin-left: 1rem;
+  align-self: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background: pink;
+  font-size: 1.1em;
+}
+
+.btn-refresh {
+  max-width: 400px;
+  background: greenyellow;
+}
